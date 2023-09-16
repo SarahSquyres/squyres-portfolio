@@ -15,7 +15,7 @@ const Contact = () => {
                 <form className='contactForm'>
                     <input type='text' className='name' placeholder='Your Name'/>
                     <input type='email' className='email' placeholder='Email'/>
-                    <textarea lassName='msg' name="message" rows="5" placeholder='Your message here'></textarea>
+                    <textarea className='msg' name="message" rows="5" placeholder='Your message here'></textarea>
                     <button type="submit" value="Send" className="submitBtn">Submit</button>
                     <div className='links'>
                         <img src={FacebookIcon} alt="Facebook" className='link'/>
