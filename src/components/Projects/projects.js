@@ -12,10 +12,7 @@ const Projects = () => {
         <section id='projects'>
             <h2 className='projectTitle'>Projects</h2>
             <span className='projectDesc'>
-            <p>Languages: HTML5, CSS, ES6 JavaScript, SQL, MySQL</p>
-            <p>Server-Side Technologies: Node.js, Express.js, Sequelize, MongoDB, GraphQL, NoSQL, Web APIs, Third-Party APIs, Server-Side APIs</p>
-            <p>Client-Side Technologies: Redux, React, jQuery, Bootstrap, Tailwind, Daisy UI, Handlebars.js</p>
-            <p>Development Skills: Heroku Deployment, GitHub Navigation, Insomnia, Bash Shell, Project Presentation, MERN Stack</p>
+            Check out my work!
             </span>
             <div className='projectImgs'>
                 <img src={Portfolio1} alt="" className='projectImg' />

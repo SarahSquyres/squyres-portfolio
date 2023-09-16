@@ -8,6 +8,7 @@
     justify-content: center;
     text-align: center;
     margin: 0 auto;
+    margin-top: 10rem;
 }
 
 .skillTitle {
@@ -19,7 +20,8 @@
 
 .skillDesc {
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     max-width: 50rem;
     padding: 0 2rem;
+    text-align: left;
 }
