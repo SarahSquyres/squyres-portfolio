@@ -10,6 +10,7 @@
     position: sticky;
     top: 0;
     z-index: 3;
+    background: rgb(40, 40, 40);
 }
 
 .logo {
@@ -38,9 +39,37 @@
     border-radius: 2rem;
 }
 
+.desktopMenuBtn:hover {
+    cursor: pointer;
+}
+
 .desktopMenuImg {
     object-fit: cover;
     height: 1rem;
     width: 1rem;
     margin: 1rem;
+}
+
+.active {
+    color: rgb(111, 123, 189);
+    font-weight: 500;
+    font-size: larger;
+}
+
+@media screen and (max-width: 632px) {
+    .navbar {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        right: 2rem;
+        z-index: 2;
+        padding: 0.5rem;
+        min-width: 15rem;
+    }
+    .desktopMenuBtn {
+        
+        margin: 0.25rem;
+    }
 }
