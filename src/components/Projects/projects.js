@@ -12,18 +12,28 @@ const Projects = () => {
         <section id='projects'>
             <h2 className='projectTitle'>Projects</h2>
             <span className='projectDesc'>
-            Check out my work!
+                Check out my work!
             </span>
             <div className='projectImgs'>
-                <img src={Portfolio1} alt="" className='projectImg' />
-                <img src={Portfolio2} alt="" className='projectImg' />
-                <img src={Portfolio3} alt="" className='projectImg' />
-                <img src={Portfolio4} alt="" className='projectImg' />
-                <img src={Portfolio5} alt="" className='projectImg' />
-                <img src={Portfolio6} alt="" className='projectImg' />
+                <a href="https://github.com/SarahSquyres/GSDone" target="_blank" >
+                    <img src={Portfolio1} alt="" className='projectImg' />
+                </a>
+                <a href="https://github.com/SarahSquyres/weather-app" target="_blank">
+                    <img src={Portfolio2} alt="" className='projectImg' />
+                </a>
+                <a href="https://github.com/SarahSquyres/challenge-13-ecommerce" target="_blank">
+                    <img src={Portfolio3} alt="" className='projectImg' />
+                </a>
+                <a href="https://github.com/SarahSquyres/employee-tracker" target="_blank">
+                    <img src={Portfolio4} alt="" className='projectImg' />
+                </a>
+                <a href="https://github.com/SarahSquyres/note-taker" target="_blank">
+                    <img src={Portfolio5} alt="" className='projectImg' />
+                </a>
+                <a href="https://github.com/SarahSquyres/day-scheduler" target="_blank">
+                    <img src={Portfolio6} alt="" className='projectImg' />
+                </a>
             </div>
-
-
         </section>
     )
 }

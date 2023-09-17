@@ -40,6 +40,10 @@
     margin: 0.5rem;
 }
 
+.projectImg:hover {
+    cursor: pointer;
+}
+
 @media screen and (max-width:585px) {
     .worksImg{
         height: 48vw;

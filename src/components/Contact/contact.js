@@ -1,8 +1,8 @@
 import React, { useRef } from 'react';
 import './contact.css';
-import FacebookIcon from "../../assets/facebook-icon.png"
+import GithubIcon from "../../assets/github-icon.png"
 import TwitterIcon from "../../assets/twitter.png"
-import InstagramIcon from "../../assets/instagram.png"
+import LinkedinIcon from "../../assets/linkedin.png"
 import emailjs from '@emailjs/browser';
 
 
@@ -28,14 +28,20 @@ const Contact = () => {
                     Please fill out the form if you have any questions!
                 </span>
                 <form className='contactForm' ref={form} onSubmit={sendEmail}>
-                    <input type='text' className='name' placeholder='Your Name' name="from_name" />
-                    <input type='email' className='email' placeholder='Email' name="from_email"/>
-                    <textarea className='msg' name="message" rows="5" placeholder='Your message here'></textarea>
+                    <input type='text' className='name' placeholder='Your Name' name="from_name" required />
+                    <input type='email' className='email' placeholder='Email' name="from_email" required />
+                    <textarea className='msg' name="message" rows="5" placeholder='Your message here' required ></textarea>
                     <button type="submit" value="Send" className="submitBtn">Submit</button>
                     <div className='links'>
-                        <img src={FacebookIcon} alt="Facebook" className='link' />
+                        <a href="https://github.com/SarahSquyres" target="_blank">
+                        <img src={GithubIcon} alt="Github" className='link' />
+                        </a>
+                        <a href="https://twitter.com/dizziedukes" target="_blank">
                         <img src={TwitterIcon} alt="Twitter" className='link' />
-                        <img src={InstagramIcon} alt="Instagram" className='link' />
+                        </a>
+                        <a href="https://www.linkedin.com/in/sarah-squyres/" target="_blank">
+                        <img src={LinkedinIcon} alt="Linkedin" className='link' />
+                        </a>
 
                     </div>
                 </form>

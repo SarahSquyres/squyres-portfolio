@@ -1,5 +1,12 @@
 # Getting Started with Create React App
 
+https://www.youtube.com/watch?v=4ag1LsgIUc0&t=10s 
+https://stackoverflow.com/questions/4919076/outline-effect-to-text
+https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F 
+https://pixabay.com/
+https://stackoverflow.com/questions/30125705/css-how-to-make-an-element-fade-in-and-then-fade-out
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -14,8 +14,11 @@
     right: 0;
     object-fit: cover;
     height: 100vh;
-
+    -webkit-animation: fadeinout 3s linear forwards;
+    animation: fadeinout 3s linear forwards;
+    animation-iteration-count: 100;
 }
+
 .introContent {
     height: 100vh;
     width: 100vw;
@@ -30,6 +33,12 @@
 .hello {
     font-size: 1.75rem;
     font-weight: 100;
+}
+
+.skillHeader {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: rgb(41, 229, 170);
 }
 
 .introName {
@@ -61,3 +70,13 @@
         right: -60vw
     }
 }
+
+@-webkit-keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  
+  @keyframes fadeinout {
+    0%,100% { opacity: 0.5; }
+    50% { opacity: 1; }
+  }
